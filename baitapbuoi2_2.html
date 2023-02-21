@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Đây là bảng nói về lời nhắn bài tập 2</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="color: aquamarine; font-size: 30px; background-color: yellow">
+        Bảng lời nhắn
+      </h1>
+    </header>
+    <main>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Họ và tên:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="phone">Số điện thoại:</label>
+          <input type="tel" id="phone" name="phone" />
+        </div>
+        <div>
+          <label for="message">Lời nhắn:</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Gửi" />
+        </div>
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th>Họ và tên</th>
+            <th>Email</th>
+            <th>Số điện thoại</th>
+            <th>Lời nhắn</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nguyễn Văn A</td>
+            <td>example@gmail.com</td>
+            <td>0987654321</td>
+            <td>Hãy gọi lại cho tôi</td>
+          </tr>
+          <tr>
+            <td>Trần Thị B</td>
+            <td>example@yahoo.com</td>
+            <td>0123456789</td>
+            <td>Liên hệ ngay cho tôi nhé</td>
+          </tr>
+          <tr>
+            <td>Phạm Văn C</td>
+            <td>example@hotmail.com</td>
+            <td>0369845127</td>
+            <td>Tôi C đây, gọi lại cho tôi</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <p>Bản quyền &copy; 2023 Trang web của tôi</p>
+    </footer>
+  </body>
+</html>
