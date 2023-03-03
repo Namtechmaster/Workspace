@@ -1,0 +1,624 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.spa-img img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 659px;
+    height: 704px;
+}
+
+.container {
+    margin-left: 204px;
+    margin-right: 204px;
+}
+
+.header {
+    height: 77px;
+}
+
+.header .container {
+    display: flex;
+}
+
+.logo {
+    height: 77px;
+    width: 270px;
+}
+
+.nav-bar ul {
+    height: 77px;
+    display: flex;
+    list-style: none;
+    align-items: end;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.banner {
+    background: url(https://demo.themeies.com/leospa/images/leaf.png) no-repeat left center/12.5%;
+}
+
+.banner .container {
+    margin-top: 105px;
+    width: 570px;
+}
+
+.banner .container>span {
+    color: #ff817e;
+    display: block;
+    font-family: "Rufina", serif;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    color: #1e2528;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 25px;
+}
+
+.banner p {
+    color: #555;
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+    height: 53px;
+    align-items: center;
+}
+
+.banner .button {
+    background-color: #ff817e;
+    border-radius: 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+
+.banner .button:hover {
+    color: black;
+}
+
+.video-button i {
+    /* border: 1px solid black; */
+    background-color: #fcf5ee;
+    padding: 15px;
+    color: #ff817e;
+    font-size: 15px;
+    border-radius: 50%
+}
+
+.video-button>span {
+    cursor: pointer;
+    color: #555;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.video-button>span:hover {
+    color: #ff817e;
+
+}
+
+.about {
+    position: relative;
+    margin-top: 182px;
+    height: 487px;
+}
+
+.about .container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.about .flower-1 {
+    position: absolute;
+    left: 16%;
+    top: 0;
+    width: 160px;
+    height: 148px;
+}
+
+.about .flower-2 {
+    position: absolute;
+    right: 135px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 88px;
+    height: 75px;
+}
+
+.about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about .container>img {
+    width: 84px;
+    height: 70px;
+    margin: 0 auto 40px;
+    margin-top: 50px;
+}
+
+.about .container>span {
+    color: #888;
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: .8;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+
+.about .container>h3 {
+    color: #1e2528;
+    font-size: 42px;
+    margin-bottom: 32px;
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+}
+
+.about .container>p {
+    color: #888;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.about .container>a {
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: #ff817e;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-transform: uppercase;
+    min-width: 170px;
+    padding: 20px 15px;
+    margin-top: 70px;
+    /* margin-bottom: 50px; */
+}
+
+.about .container>a:hover {
+    color: black;
+}
+
+.service {
+    margin-top: 100px;
+}
+
+.service>div {
+    position: relative;
+}
+
+.service>div>img {
+    width: 376px;
+    height: 450px;
+}
+
+.service>div {
+    display: inline-block;
+}
+
+.service-hover {
+    position: absolute;
+    background-color: rgba(255, 129, 126, 0.9);
+    width: 376px;
+    height: 450px;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    visibility: hidden;
+}
+
+.service-hover img {
+    width: 47px;
+    height: 42px;
+}
+
+.service-hover span {
+    color: #fff;
+    display: block;
+    font-family: "Rufina", serif;
+    font-weight: 700;
+}
+
+.service>div:hover .service-hover {
+    visibility: visible;
+}
+
+.nav-bar ul li:hover a {
+    color: #ff817e;
+}
+
+.procedures {
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.procedures-header {
+    text-align: center;
+    width: 730px;
+    margin: 0 auto;
+}
+
+.procedures-header h3 {
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    color: #1e2528;
+    font-size: 42px;
+    margin-bottom: 32px;
+}
+
+.procedures-header p {
+    color: #888;
+    margin-bottom: 70px;
+}
+
+.post-item {
+    text-align: center;
+    padding: 20px;
+    width: 350px;
+    height: 574px;
+    border: 0.8px solid #ccc;
+}
+
+.post-item img {
+    margin-bottom: 35px;
+}
+
+.post-item h4 {
+    color: #263a41;
+    font-size: 22px;
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.post-item p {
+    margin-bottom: 39px;
+    color: #6c6c6f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.post-item a {
+    text-decoration: none;
+    padding: 15px 40px;
+    background-color: black;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-transform: uppercase;
+}
+
+.post {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-item a:hover {
+    background-color: #ff817e;
+    color: #fff;
+}
+
+.quote {
+    /* margin-top: 130px; */
+    width: 920px;
+    text-align: center;
+    margin: 0 auto;
+    height: 450px;
+}
+
+.quote p {
+    color: #263a41;
+    font-family: "Rufina", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 43px;
+}
+
+.quote>img {
+    margin-bottom: 45px;
+}
+
+.quote .avt img {
+    border-radius: 50%;
+}
+
+.quote .avt-info {
+    font-size: 22px;
+    margin-bottom: 0;
+    color: #263a41;
+    font-family: "Rufina", serif;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.quote .avt-info span {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.team {
+    margin-bottom: 130px;
+}
+
+.team-heading,
+.contact-header {
+    width: 730px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-heading h3,
+.contact-header h3 {
+    color: #1e2528;
+    font-size: 42px;
+    margin-bottom: 32px;
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+}
+
+.team-heading p,
+.contact-header p {
+    color: #888;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.team-card-item {
+    width: 350px;
+    height: 497px;
+}
+
+.team-card-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mem-details {
+    background-color: #fff;
+    box-shadow: 0 5px 20px #f0f0f0;
+    max-width: calc(100% - 60px);
+    margin: -50px auto 0;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+    z-index: 1;
+}
+
+.team-card-item:hover .mem-details {
+    margin-top: -84px;
+}
+
+.mem-details h6 {
+    color: #263a41;
+    font-size: 22px;
+    margin-bottom: 0;
+    font-family: 'Rufina', serif;
+    font-weight: 700;
+}
+
+.mem-details p {
+    color: #6c6c6f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+
+.mem-social {
+    margin-top: -10px;
+    transition: all 300ms ease-in-out;
+    ;
+    opacity: 0;
+    visibility: visible;
+}
+
+.mem-social i {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.team-card-item:hover .mem-social {
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.appointment {
+    display: flex;
+    gap: 120px;
+}
+
+.appointment-form div input {
+    width: 340px;
+    height: 50px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.appointment-form div textarea {
+    width: 100%;
+    height: 50px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.appointment-form form {
+    height: 501px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.appointment-form div button {
+    background-color: #ff817e;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-transform: uppercase;
+    min-width: 170px;
+    padding: 20px 15px;
+    border: none;
+    border-radius: 50px;
+}
+
+.appointment-form div button:hover {
+    color: black;
+}
+
+.contact-header {
+    margin-bottom: 70px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-item i {
+    padding: 20px;
+    background-color: #ff817e;
+    border-radius: 50%;
+    color: white;
+}
+
+.contact-item span {
+    color: #888;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.contact-main {
+    /* gap: 20px; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-form {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input {
+    border: 1px solid #ccc;
+    width: 524px;
+    height: 48px;
+}
+
+.contact-form textarea {
+    height: 75px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #ff817e;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.8;
+    text-transform: uppercase;
+    width: 170px;
+    padding: 20px 15px;
+    border: none;
+    border-radius: 50px;
+}
+
+.contact-form button:hover {
+    color: black;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: #fff9f8;
+    height: 388px;
+    text-align: center;
+}
+
+.footer .container img {
+    margin-top: 80px;
+}
+
+.footer .nav-bar ul {
+    height: 50px;
+    justify-content: center;
+}
+
+.footer-social {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    color: #888;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.footer p span {
+    color: #ff817e;
+}
